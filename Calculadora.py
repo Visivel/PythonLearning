@@ -9,8 +9,8 @@ else:
     else:
         if metodo==3:
             print("A divisao de {} com {} é:\n[{}]".format(num,calc,round(num/calc,3)))
-            # Use round pq acho que nos outros so vai Float caso for proposital
-            # Tipo caso a pessoa coloque 0.444 no num, ai ele vai ficar locao msm.
+            # Usei round pq acho que nos outros so vai Float caso for proposital
+            # Tipo caso a pessoa coloque 0.444 no "num", ai ele vai ficar locao msm.
         else:
             if metodo==4:
                 print("A multiplicação de {} com {} é:\n[{}]".format(num,calc,num*calc))
